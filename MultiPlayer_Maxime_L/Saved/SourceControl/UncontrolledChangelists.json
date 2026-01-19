@@ -1,0 +1,22 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Aracno/Documents/Unreal Projects/MultiPlayer_Maxime_L/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/Aracno/Documents/Unreal Projects/MultiPlayer_Maxime_L/Content/Levels/Map_Level_1/BP_MAP_LEVEL_1.umap",
+				"C:/Users/Aracno/Documents/Unreal Projects/MultiPlayer_Maxime_L/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset",
+				"C:/Users/Aracno/Documents/Unreal Projects/MultiPlayer_Maxime_L/Content/MPMECH/BP/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/Aracno/Documents/Unreal Projects/MultiPlayer_Maxime_L/Content/MPMECH/BP/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/Aracno/Documents/Unreal Projects/MultiPlayer_Maxime_L/Content/Widjet/BP_WIDGET_START_MENU.uasset",
+				"C:/Users/Aracno/Documents/Unreal Projects/MultiPlayer_Maxime_L/Content/Levels/Map_Level_1/BP_PLAYER_1_SPAWN_POINT.uasset",
+				"C:/Users/Aracno/Documents/Unreal Projects/MultiPlayer_Maxime_L/Content/Levels/Map_Level_1/BP_PLAYER_2_SPAWN_POINT.uasset",
+				"C:/Users/Aracno/Documents/Unreal Projects/MultiPlayer_Maxime_L/Content/Levels/No_Space_Left_Level/BP_WAITING_HUB.umap",
+				"C:/Users/Aracno/Documents/Unreal Projects/MultiPlayer_Maxime_L/Content/Widjet/Menu/BP_WIDGET_START_MENU.uasset",
+				"C:/Users/Aracno/Documents/Unreal Projects/MultiPlayer_Maxime_L/Content/Widjet/Waiting_Hub/BP_WIDGET_WAITING_HUB.uasset"
+			]
+		}
+	]
+}
