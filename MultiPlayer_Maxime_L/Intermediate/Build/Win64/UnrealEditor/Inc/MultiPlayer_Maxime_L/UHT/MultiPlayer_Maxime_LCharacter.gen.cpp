@@ -389,14 +389,14 @@ AMultiPlayer_Maxime_LCharacter::~AMultiPlayer_Maxime_LCharacter() {}
 // ********** End Class AMultiPlayer_Maxime_LCharacter *********************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCharacter_h__Script_MultiPlayer_Maxime_L_Statics
+struct Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCharacter_h__Script_MultiPlayer_Maxime_L_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AMultiPlayer_Maxime_LCharacter, AMultiPlayer_Maxime_LCharacter::StaticClass, TEXT("AMultiPlayer_Maxime_LCharacter"), &Z_Registration_Info_UClass_AMultiPlayer_Maxime_LCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMultiPlayer_Maxime_LCharacter), 1395922107U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCharacter_h__Script_MultiPlayer_Maxime_L_3370493189(TEXT("/Script/MultiPlayer_Maxime_L"),
-	Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCharacter_h__Script_MultiPlayer_Maxime_L_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCharacter_h__Script_MultiPlayer_Maxime_L_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCharacter_h__Script_MultiPlayer_Maxime_L_3370493189(TEXT("/Script/MultiPlayer_Maxime_L"),
+	Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCharacter_h__Script_MultiPlayer_Maxime_L_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCharacter_h__Script_MultiPlayer_Maxime_L_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

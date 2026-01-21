@@ -324,14 +324,14 @@ UHorrorUI::~UHorrorUI() {}
 // ********** End Class UHorrorUI ******************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Horror_UI_HorrorUI_h__Script_MultiPlayer_Maxime_L_Statics
+struct Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Horror_UI_HorrorUI_h__Script_MultiPlayer_Maxime_L_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UHorrorUI, UHorrorUI::StaticClass, TEXT("UHorrorUI"), &Z_Registration_Info_UClass_UHorrorUI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UHorrorUI), 1920863025U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Horror_UI_HorrorUI_h__Script_MultiPlayer_Maxime_L_1517827927(TEXT("/Script/MultiPlayer_Maxime_L"),
-	Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Horror_UI_HorrorUI_h__Script_MultiPlayer_Maxime_L_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Horror_UI_HorrorUI_h__Script_MultiPlayer_Maxime_L_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Horror_UI_HorrorUI_h__Script_MultiPlayer_Maxime_L_1517827927(TEXT("/Script/MultiPlayer_Maxime_L"),
+	Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Horror_UI_HorrorUI_h__Script_MultiPlayer_Maxime_L_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Horror_UI_HorrorUI_h__Script_MultiPlayer_Maxime_L_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

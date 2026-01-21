@@ -362,14 +362,14 @@ AShooterPlayerController::~AShooterPlayerController() {}
 // ********** End Class AShooterPlayerController ***************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_ShooterPlayerController_h__Script_MultiPlayer_Maxime_L_Statics
+struct Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_ShooterPlayerController_h__Script_MultiPlayer_Maxime_L_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AShooterPlayerController, AShooterPlayerController::StaticClass, TEXT("AShooterPlayerController"), &Z_Registration_Info_UClass_AShooterPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShooterPlayerController), 1385791189U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_ShooterPlayerController_h__Script_MultiPlayer_Maxime_L_2453712091(TEXT("/Script/MultiPlayer_Maxime_L"),
-	Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_ShooterPlayerController_h__Script_MultiPlayer_Maxime_L_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_ShooterPlayerController_h__Script_MultiPlayer_Maxime_L_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_ShooterPlayerController_h__Script_MultiPlayer_Maxime_L_2453712091(TEXT("/Script/MultiPlayer_Maxime_L"),
+	Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_ShooterPlayerController_h__Script_MultiPlayer_Maxime_L_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_ShooterPlayerController_h__Script_MultiPlayer_Maxime_L_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

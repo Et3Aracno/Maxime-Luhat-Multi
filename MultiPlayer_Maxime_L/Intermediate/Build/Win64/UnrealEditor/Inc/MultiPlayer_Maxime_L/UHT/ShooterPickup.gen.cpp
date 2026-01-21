@@ -435,7 +435,7 @@ AShooterPickup::~AShooterPickup() {}
 // ********** End Class AShooterPickup *************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_Weapons_ShooterPickup_h__Script_MultiPlayer_Maxime_L_Statics
+struct Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_Weapons_ShooterPickup_h__Script_MultiPlayer_Maxime_L_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
 		{ FWeaponTableRow::StaticStruct, Z_Construct_UScriptStruct_FWeaponTableRow_Statics::NewStructOps, TEXT("WeaponTableRow"), &Z_Registration_Info_UScriptStruct_FWeaponTableRow, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FWeaponTableRow), 4200309569U) },
@@ -444,9 +444,9 @@ struct Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Mult
 		{ Z_Construct_UClass_AShooterPickup, AShooterPickup::StaticClass, TEXT("AShooterPickup"), &Z_Registration_Info_UClass_AShooterPickup, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShooterPickup), 2235783317U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_Weapons_ShooterPickup_h__Script_MultiPlayer_Maxime_L_3239518021(TEXT("/Script/MultiPlayer_Maxime_L"),
-	Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_Weapons_ShooterPickup_h__Script_MultiPlayer_Maxime_L_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_Weapons_ShooterPickup_h__Script_MultiPlayer_Maxime_L_Statics::ClassInfo),
-	Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_Weapons_ShooterPickup_h__Script_MultiPlayer_Maxime_L_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_Weapons_ShooterPickup_h__Script_MultiPlayer_Maxime_L_Statics::ScriptStructInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_Weapons_ShooterPickup_h__Script_MultiPlayer_Maxime_L_3239518021(TEXT("/Script/MultiPlayer_Maxime_L"),
+	Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_Weapons_ShooterPickup_h__Script_MultiPlayer_Maxime_L_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_Weapons_ShooterPickup_h__Script_MultiPlayer_Maxime_L_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_Weapons_ShooterPickup_h__Script_MultiPlayer_Maxime_L_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_Variant_Shooter_Weapons_ShooterPickup_h__Script_MultiPlayer_Maxime_L_Statics::ScriptStructInfo),
 	nullptr, 0);
 // ********** End Registration *********************************************************************
 

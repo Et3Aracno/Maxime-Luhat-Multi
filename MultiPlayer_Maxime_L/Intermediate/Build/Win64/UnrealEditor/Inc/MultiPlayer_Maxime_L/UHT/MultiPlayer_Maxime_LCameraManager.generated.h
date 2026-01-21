@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class AMultiPlayer_Maxime_LCameraManager ***************************************
 MULTIPLAYER_MAXIME_L_API UClass* Z_Construct_UClass_AMultiPlayer_Maxime_LCameraManager_NoRegister();
 
-#define FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCameraManager_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCameraManager_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMultiPlayer_Maxime_LCameraManager(); \
 	friend struct Z_Construct_UClass_AMultiPlayer_Maxime_LCameraManager_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(AMultiPlayer_Maxime_LCameraManager)
 
 
-#define FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCameraManager_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCameraManager_h_16_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AMultiPlayer_Maxime_LCameraManager(AMultiPlayer_Maxime_LCameraManager&&) = delete; \
 	AMultiPlayer_Maxime_LCameraManager(const AMultiPlayer_Maxime_LCameraManager&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NO_API virtual ~AMultiPlayer_Maxime_LCameraManager();
 
 
-#define FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCameraManager_h_13_PROLOG
-#define FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCameraManager_h_16_GENERATED_BODY \
+#define FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCameraManager_h_13_PROLOG
+#define FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCameraManager_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCameraManager_h_16_INCLASS_NO_PURE_DECLS \
-	FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCameraManager_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCameraManager_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCameraManager_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,6 +55,6 @@ class AMultiPlayer_Maxime_LCameraManager;
 // ********** End Class AMultiPlayer_Maxime_LCameraManager *****************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_Aracno_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCameraManager_h
+#define CURRENT_FILE_ID FID_Users_mluhat_Documents_GitHub_Maxime_Luhat_Multi_MultiPlayer_Maxime_L_Source_MultiPlayer_Maxime_L_MultiPlayer_Maxime_LCameraManager_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
