@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Aracno\\Documents\\Unreal Projects\\MultiPlayer_Maxime_L\\MultiPlayer_Maxime_L\\Source\\MultiPlayer_Maxime_L\\MultiPlayer_Maxime_L.Build.cs",
-		"C:\\Users\\Aracno\\Documents\\Unreal Projects\\MultiPlayer_Maxime_L\\MultiPlayer_Maxime_L\\Source\\MultiPlayer_Maxime_L.Target.cs",
-		"C:\\Users\\Aracno\\Documents\\Unreal Projects\\MultiPlayer_Maxime_L\\MultiPlayer_Maxime_L\\Source\\MultiPlayer_Maxime_LEditor.Target.cs"
+		"C:\\Users\\mluhat\\Documents\\GitHub\\Maxime-Luhat-Multi\\MultiPlayer_Maxime_L\\Source\\MultiPlayer_Maxime_L\\MultiPlayer_Maxime_L.Build.cs",
+		"C:\\Users\\mluhat\\Documents\\GitHub\\Maxime-Luhat-Multi\\MultiPlayer_Maxime_L\\Source\\MultiPlayer_Maxime_L.Target.cs",
+		"C:\\Users\\mluhat\\Documents\\GitHub\\Maxime-Luhat-Multi\\MultiPlayer_Maxime_L\\Source\\MultiPlayer_Maxime_LEditor.Target.cs"
 	],
 	"EngineVersion": "5.6.1"
 }
