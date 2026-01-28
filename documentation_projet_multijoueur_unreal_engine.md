@@ -65,26 +65,53 @@ L’objectif est de coopérer (ou progresser en parallèle) pour terminer plusie
 - Bouton Restart (réservé à l’hôte)
 - Timer affiché en jeu
 - Écran de fin de partie affichant le temps final
+- Bouton Video Settings
+- Bouton Music & Sound
+- Bouton Control Settings
 
 ---
 
 
 
-## 3. Fonctionnalités non réalisées
+3. Fonctionnalités non réalisées
+❌ Multijoueur en ligne (Internet)
 
-### ❌ Multijoueur en ligne (Internet)
-- Le jeu fonctionne uniquement en **réseau local (LAN)**
-- La gestion de serveurs en ligne n’a pas été implémentée par manque de temps
+Le jeu fonctionne uniquement en réseau local (LAN)
 
-### ❌ Migration de l’hôte
-- Unreal Engine ne propose pas de solution native simple pour le transfert de rôle d’hôte
-- Fonctionnalité jugée trop complexe pour le cadre du projet
+La gestion de serveurs en ligne n’a pas été implémentée par manque de temps et de moyens matériels
 
-### ❌ Classements / Scores persistants
-- Aucun système de sauvegarde ou de leaderboard
-- Le temps est affiché uniquement à la fin de la partie
+❌ Migration de l’hôte
 
----
+Unreal Engine ne propose pas de solution native simple pour le transfert du rôle d’hôte
+
+Fonctionnalité jugée trop complexe pour le cadre du projet
+
+❌ Classements / Scores persistants
+
+Aucun système de sauvegarde ou de leaderboard
+
+Le temps est affiché uniquement à la fin de la partie
+
+❌ Paramètres vidéo
+
+Aucune possibilité de modifier les paramètres de qualité graphique
+
+❌ Paramètres audio
+
+Aucune possibilité de modifier les paramètres audio
+
+❌ Paramètres de contrôle
+
+Aucune possibilité de modifier les touches (key bindings)
+
+❌ Limite de joueurs / Auto-kick
+
+Aucune sécurité lors de la connexion des joueurs
+
+Aucune limite maximale de joueurs définie
+
+
+------
 
 
 
@@ -139,20 +166,22 @@ Le jeu utilise une architecture **client / serveur autoritaire** en **multijoueu
 - **Widgets (UI)**
   - Gérés localement sur chaque machine
   - Menus, timer, écran de fin
-
----
-
---------------------------->|
-                |                   
-                v
-           [ Serveur ]
-        (PlayerController,
-         GameMode,
-         Autorité gameplay)
-                |
-                | Réplication
-                v
-        [ Tous les clients ]
+```
+        [ Client ]
+             |
+             |  Inputs joueur
+             v
+        [ Serveur ]
+   --------------------------------
+   | GameMode (Serveur only)       |
+   | PlayerController              |
+   | PlayerState (répliqué)        |
+   | Autorité gameplay             |
+   --------------------------------
+             |
+             | Réplication réseau
+             v
+      [ Clients connectés ]
 ```
 
 ### 🧠 Répartition des rôles
@@ -179,15 +208,22 @@ Le jeu utilise une architecture **client / serveur autoritaire** en **multijoueu
 
 ## 5. Assets externes utilisés
 
-| Type | Nom | Source |
-|---|---|---|
-| Moteur | Unreal Engine 5.6 | Epic Games |
-| Contenu de base | Starter Content | Epic Games |
-| Effets visuels | Niagara (explosions, effets) | Unreal Engine |
-| Sons | Aucun ou à compléter | — |
-| Modèles 3D | Assets internes / Starter Content | Epic Games |
+|      Type       |             Nom              |         Source         |
+|-----------------|------------------------------|------------------------|
+| Type            | Élément                      | Source                 |
+| --------------- | ---------------------------- | ---------------------- |
+| Moteur          | Unreal Engine 5.6            | Epic Games             |
+| Contenu de base | Starter Content              | Epic Games             |
+| Effets visuels  | Niagara (explosions, effets) | Epic Games (FAB)       |
+| Sons            | Aucun                        | —                      |
+| Modèles 3D      | Player                       | Epic Games (FAB)       |
+| Modèles 3D      | Tourelle                     | Epic Games (FAB)       |
+| Modèles 3D      | Projectiles                  | Sketchfab              |
+| Modèles 3D      | Environnement                | Epic Games (FAB)       |
+| UI              | Interface utilisateur        | Généré (Google Gemini) |
 
-👉 Aucun asset soumis à licence restrictive n’a été utilisé. Le projet repose principalement sur les outils et contenus fournis par Unreal Engine.
+
+👉 Aucun asset soumis à licence restrictive n’a été utilisé.
 
 ---
 
