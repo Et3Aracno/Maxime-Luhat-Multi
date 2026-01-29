@@ -215,6 +215,7 @@ Le jeu utilise une architecture **client / serveur autoritaire** en **multijoueu
 | Moteur          | Unreal Engine 5.6            | Epic Games             |
 | Contenu de base | Starter Content              | Epic Games             |
 | Effets visuels  | Niagara (explosions, effets) | Epic Games (FAB)       |
+| Effets visuels  | Matériaux                    | Epic Games (FAB)       |
 | Sons            | Aucun                        | —                      |
 | Modèles 3D      | Player                       | Epic Games (FAB)       |
 | Modèles 3D      | Tourelle                     | Epic Games (FAB)       |
