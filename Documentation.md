@@ -42,6 +42,8 @@ L’objectif est de coopérer (ou progresser en parallèle) pour terminer plusie
 - Multijoueur local (LAN)
 - Hébergement de partie par un joueur (Host)
 - Rejoindre une partie via adresse IP
+- Champ de saisie permettant de sélectionner manuellement l’IP à rejoindre
+- Connexion via adresse IP locale
 - Architecture **client / serveur autoritaire**
 - Synchronisation des joueurs en temps réel
 
