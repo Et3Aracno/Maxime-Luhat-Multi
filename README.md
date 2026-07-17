@@ -1,8 +1,8 @@
-# 📄 Documentation du projet
+# Documentation du projet
 
 ## 1. Concept
 
-### 📜 Règles du jeu
+### Règles du jeu
 - Le jeu se joue à **2 joueurs**.
 - Chaque joueur contrôle un **robot**.
 - Les déplacements se font avec **ZQSD**.
@@ -19,7 +19,7 @@
 
 ---
 
-### 📜 Règles du jeu
+### Règles du jeu
 - Un joueur peut **héberger une partie** (Host).
 - Les autres joueurs peuvent **rejoindre la partie** via l’adresse IP.
 - Tous les joueurs sont synchronisés en temps réel.
