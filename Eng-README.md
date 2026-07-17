@@ -1,5 +1,5 @@
 # Project Documentation
-
+The source code available above is not the most recent version of the project. This is due to GitHub's push size limitations and the large game assets included in the project.
 ## 1. Concept
 
 ### Game Rules
