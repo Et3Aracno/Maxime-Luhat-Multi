@@ -1,15 +1,15 @@
-# 📄 Documentation du projet
+# Documentation du projet
 
 ## 1. Concept
 
-### 🎮 Pitch
+### Pitch
 Jeu multijoueur développé avec **Unreal Engine 5.6**, jouable en **multijoueur local (LAN)**, dans lequel les joueurs incarnent des **robots**. Le jeu se joue obligatoirement à **deux joueurs minimum et maximum**.
 
 L’objectif est de coopérer (ou progresser en parallèle) pour terminer plusieurs **épreuves (trials)** dans le **temps le plus court possible**. Le temps total est mesuré du début à la fin de la partie grâce à un **timer visible en jeu**.
 
 ---
 
-### 📜 Règles du jeu
+### Règles du jeu
 - Le jeu se joue à **2 joueurs**.
 - Chaque joueur contrôle un **robot**.
 - Les déplacements se font avec **ZQSD**.
@@ -27,7 +27,7 @@ L’objectif est de coopérer (ou progresser en parallèle) pour terminer plusie
 
 
 
-### 📜 Règles du jeu
+### Règles du jeu
 - Un joueur peut **héberger une partie** (Host).
 - Les autres joueurs peuvent **rejoindre la partie** via l’adresse IP.
 - Tous les joueurs sont synchronisés en temps réel.
@@ -38,7 +38,7 @@ L’objectif est de coopérer (ou progresser en parallèle) pour terminer plusie
 
 ## 2. Fonctionnalités réalisées
 
-### 🔌 Multijoueur
+### Multijoueur
 - Multijoueur local (LAN)
 - Hébergement de partie par un joueur (Host)
 - Rejoindre une partie via adresse IP
@@ -47,7 +47,7 @@ L’objectif est de coopérer (ou progresser en parallèle) pour terminer plusie
 - Architecture **client / serveur autoritaire**
 - Synchronisation des joueurs en temps réel
 
-### 🤖 Gameplay
+### Gameplay
 - Déplacement du robot (ZQSD)
 - Saut (Espace)
 - Zoom de la caméra (clic droit)
@@ -55,12 +55,12 @@ L’objectif est de coopérer (ou progresser en parallèle) pour terminer plusie
 - Destruction de cibles
 - Collisions fonctionnelles (projectiles / environnement)
 
-### 🎨 Personnalisation
+### Personnalisation
 - Système de **skins de robot**
 - Menu de sélection des skins accessible en jeu avec la touche **M**
 - Données de skin stockées dans le **PlayerState** et répliquées
 
-### 🖥️ Interface utilisateur
+### Interface utilisateur
 - Menu principal (Host / Join)
 - Menu en jeu (touche **M**)
 - Bouton Quitter la partie
@@ -76,37 +76,37 @@ L’objectif est de coopérer (ou progresser en parallèle) pour terminer plusie
 
 
 3. Fonctionnalités non réalisées
-❌ Multijoueur en ligne (Internet)
+ Multijoueur en ligne (Internet)
 
 Le jeu fonctionne uniquement en réseau local (LAN)
 
 La gestion de serveurs en ligne n’a pas été implémentée par manque de temps et de moyens matériels
 
-❌ Migration de l’hôte
+ Migration de l’hôte
 
 Unreal Engine ne propose pas de solution native simple pour le transfert du rôle d’hôte
 
 Fonctionnalité jugée trop complexe pour le cadre du projet
 
-❌ Classements / Scores persistants
+ Classements / Scores persistants
 
 Aucun système de sauvegarde ou de leaderboard
 
 Le temps est affiché uniquement à la fin de la partie
 
-❌ Paramètres vidéo
+ Paramètres vidéo
 
 Aucune possibilité de modifier les paramètres de qualité graphique
 
-❌ Paramètres audio
+ Paramètres audio
 
 Aucune possibilité de modifier les paramètres audio
 
-❌ Paramètres de contrôle
+ Paramètres de contrôle
 
 Aucune possibilité de modifier les touches (key bindings)
 
-❌ Limite de joueurs / Auto-kick
+ Limite de joueurs / Auto-kick
 
 Aucune sécurité lors de la connexion des joueurs
 
@@ -119,7 +119,7 @@ Aucune limite maximale de joueurs définie
 
 ## 4. Architecture réseau (schéma logique)
 
-### 🧠 Modèle réseau utilisé
+###  Modèle réseau utilisé
 Le jeu utilise une architecture **client / serveur autoritaire** en **multijoueur local (LAN)**.
 
 - Un joueur héberge la partie et devient le **serveur (Host)**.
@@ -128,7 +128,7 @@ Le jeu utilise une architecture **client / serveur autoritaire** en **multijoueu
 
 ---
 
-### 📐 Schéma simplifié
+###  Schéma simplifié
 
 ```
 [ Client ]                         [ Serveur / Host ]
@@ -146,7 +146,7 @@ Le jeu utilise une architecture **client / serveur autoritaire** en **multijoueu
 
 ---
 
-### 🧩 Rôle des classes principales
+###  Rôle des classes principales
 
 - **GameMode** (Serveur uniquement)
   - Gère les règles du jeu
@@ -186,7 +186,7 @@ Le jeu utilise une architecture **client / serveur autoritaire** en **multijoueu
       [ Clients connectés ]
 ```
 
-### 🧠 Répartition des rôles
+###  Répartition des rôles
 
 - **GameMode** :
   - Serveur uniquement
@@ -226,7 +226,7 @@ Le jeu utilise une architecture **client / serveur autoritaire** en **multijoueu
 | UI              | Interface utilisateur        | Généré (Google Gemini) |
 
 
-👉 Aucun asset soumis à licence restrictive n’a été utilisé.
+ Aucun asset soumis à licence restrictive n’a été utilisé.
 
 ---
 
