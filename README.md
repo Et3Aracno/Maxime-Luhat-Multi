@@ -1,5 +1,5 @@
 # Documentation du projet
-
+Prenez note que le code disponible ci-dessus n'est pas la version la plus récente. Cela est dû à la limite de taille des push GitHub ainsi qu'aux assets présents dans le jeu.
 ## 1. Concept
 
 ### Règles du jeu
