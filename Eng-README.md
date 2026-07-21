@@ -1,33 +1,29 @@
 # Project Documentation
 The source code available above is not the most recent version of the project. This is due to GitHub's push size limitations and the large game assets included in the project.
-## 1. Concept
 
-### Game Rules
+## Game Rules
 
-- The game is played by **2 players**.
-- Each player controls a **robot**.
-- Movement is controlled using **WASD**.
-- The player can:
-  - **Zoom** with the right mouse button
-  - **Shoot** with the left mouse button
-  - **Jump** with the **Spacebar**
-  - Open the **Menu** with the **M** key
-- The game consists of **2 trials**:
-  1. **Maze**: progress and navigate through the environment
-  2. **Target Destruction**: eliminate targets using your weapon
-- To complete the game, players must **finish all trials**.
-- The objective is to achieve the **best possible time**.
+- The game is a **2-player multiplayer experience**.
+- One player can **host a game**, while the other players can join using the **server's IP address**.
+- Each player controls a **robot**, and the main actions are synchronized in real time between players.
+- Player movements and main interactions are handled by the server to ensure a consistent multiplayer experience.
 
----
+### Controls
 
-### Multiplayer Rules
+- Movement: **WASD / ZQSD**
+- Shoot: **Left mouse button**
+- Zoom: **Right mouse button**
+- Jump: **Space**
+- Open menu: **M**
 
-- One player can **host a game** (Host).
-- Other players can **join the game** using the server's IP address.
-- All players are synchronized in real time.
-- Main actions (movement, shooting, explosions) are handled by the server.
-- A completion condition triggers an **end screen** displaying the final time.
+### Objective
 
+The game is composed of **2 trials** that players must complete in order to finish the game:
+
+1. **Maze**: navigate through the environment and reach the end of the path.
+2. **Target Destruction**: eliminate different targets using the shooting system.
+
+Players must successfully complete all trials while achieving the **best possible time**. Once all trials are completed, a **final screen** displays the players' completion time.
 ---
 
 ## Launching the Game
